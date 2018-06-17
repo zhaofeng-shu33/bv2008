@@ -1,0 +1,266 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>北京大学爱心社-志愿北京</title>
+<script src="https://hm.baidu.com/hm.js?b5a4f0ef5aaaf72966174528a19e2e9e"></script><script type="text/javascript" src="http://css.zhiyuanyun.com/lib/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="http://css.zhiyuanyun.com/lib/common.js"></script>
+<script type="text/javascript" src="http://css.zhiyuanyun.com/common/login.js"></script>
+<script>
+$(window).scroll(function (){
+    var f=$('#ptit');
+    var top=$(this).scrollTop();
+    var top_o=$('#main_body').offset().top;
+    if(top>top_o){
+        f.css({'position':'absolute','top':top+'px','left':$('#main_body').find('.wrap').offset().left+'px','background':'#ffffff','margin-top':'0px'});
+    }else{
+        f.css({'position':'inherit'});
+    }
+});
+</script>
+<!--[if lte IE 6]>
+<script language="javascript" type="text/javascript" src="http://css.zhiyuanyun.com/lib/png.js" ></script>
+<script type="text/javascript">
+    DD_belatedPNG.fix('div, ul, li, input , a, a:hover, h2, b');
+</script>
+<![endif]-->
+<script type="text/javascript" src="http://css.zhiyuanyun.com/common/front.js"></script>
+<link href="http://css.zhiyuanyun.com//default/style.css" rel="stylesheet" type="text/css">
+<link href="http://css.zhiyuanyun.com/bv2008.cn/style.css" rel="stylesheet" type="text/css">
+<meta name="renderer" content="webkit|ie-stand">
+<script src="http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=422736"></script><script type="text/x-mathjax-config">MathJax.Hub.Register.StartupHook("NativeMML Jax Ready", function () {MathJax.OutputJax.NativeMML.Augment({preTranslate: function (state) {
+  var scripts = state.jax[this.id];
+  for (var i = 0; i < scripts.length; i++) {
+    var script = scripts[i]; if (!script.parentNode) continue;
+    // Remove any existing output
+    var prev = script.previousSibling;
+    if (prev && prev.className === "MathJax_MathML")
+      prev.parentNode.removeChild(prev);
+    // Add the MathJax span
+    var jax = script.MathJax.elementJax; if (!jax) continue;
+    var math = jax.root; jax.NativeMML = {};
+    var type = (math.Get("display") === "block" ? "div" : "span");
+    var span = MathJax.HTML.Element(type,{
+      className: "MathJax_MathML", id:jax.inputID+"-Frame"
+    },[["span",{
+      className:"MathJax_MathContainer", isMathJax: true, jaxID:this.id,
+    },[["span",{isMathJax:true}]]
+    ]]);
+    script.parentNode.insertBefore(span,script);
+  }
+}});MathJax.OutputJax.NativeMML.ffTableWidthBug = false;MathJax.OutputJax.NativeMML.forceReflow = false;MathJax.OutputJax.NativeMML.widthBug = false;MathJax.OutputJax.NativeMML.spaceWidthBug = false;MathJax.OutputJax.NativeMML.mtdWidthBug = false;});MathJax.Hub.Register.StartupHook("End Extensions", function () {if (MathJax.Extension.mml2jax) {  for (var i=0,m=MathJax.Hub.preProcessors.hooks.length; i < m; i++) {    if (MathJax.Hub.preProcessors.hooks[i].hook ===        MathJax.Extension.mml2jax.PreProcess)      { MathJax.Hub.preProcessors.hooks.splice(i,1); i--; m--; }  }}});</script><link rel="stylesheet" href="http://bdimg.share.baidu.com/static/api/css/share_style1_16.css"><link rel="stylesheet" href="http://bdimg.share.baidu.com/static/api/css/share_popup.css?v=ecc6050c.css"><link rel="stylesheet" href="http://bdimg.share.baidu.com/static/api/css/select_share.css?v=cab3cb22.css"></head>
+<body>
+<div class="header">
+<div class="wrap clearfix topmenu">
+<script type="text/javascript" src="/app/api/site.all.js"></script><style>    .topmenu{font-size:12px;}    .topmenu_r a{display:inline-block;width:70px;text-align:center;float:left;color:#000;line-height:30px;}    .topmenu_r a:hover{background:#fff;}    .topmenu_r a.arrow1{background:url(http://css.zhiyuanyun.com/default/images/btn.png) 65px -322px no-repeat;text-align:left;padding-left:10px;*padding-left:5px;}    .topmenu_txt{float:left;position:relative;}    .topmenu_con{*left:0;height:auto;font-size:12px;position:absolute;top:30px;background:#fff;color:#fff;z-index:20;overflow:hidden;display:none;border:1px solid #ddd;border-top:0px;}    .topmenu_con ul{width:80px;}    .topmenu_con a{width:80px;text-align:center;display:block;height:30px;line-height:30px;color:#000;}    .topmenu_con a:hover{background:#f7f7f7;color:#000;}    .box_100,.box_1000{overflow:visible;}    .area_all .topmenu_con{top:30px;width:1000px;}    .area_all .topmenu_con ul{width:1000px;clear:both;}    .area_all .topmenu_con ul li{width:100%;clear:both;}    .area_all .topmenu_con ul li a{width:auto;display:inline-block;text-align:left;padding:0 8px;*padding:0 4px;}    .area_all .topmenu_con ul li a:hover{border:0px;color:#c30;background:#fff;}</style><span class="l topmenu_r area_all" style="margin-right:5px;"><div class="topmenu_txt"><a href="javascript:void(0);" class="arrow1">站点切换</a><div class="topmenu_con">    <ul>        <li>            <a target="_blank" href="http://www.chinavolunteer.cn"><strong>中国志愿服务网、全国志愿服务信息系统</strong></a>            <a target="_blank" href="http://gjjg.chinavolunteer.cn"><strong>中央国家机关志愿服务网</strong></a>            <a target="_blank" href="http://ly.chinavolunteer.cn"><strong>中国旅游志愿者网</strong></a>        </li>        <li>            <a target="_blank" href="http://sh.chinavolunteer.cn/app/opp/list.php"><strong>上海</strong></a>            <a target="_blank" href="http://www.zyhn.org"><strong>海南</strong></a>            <a target="_blank" href="http://jl.chinavolunteer.cn/app/opp/list.php"><strong>吉林</strong></a>            <a target="_blank" href="http://jilin.zhiyuanyun.com">吉林市</a>            <a target="_blank" href="http://sx.chinavolunteer.cn"><strong>山西</strong></a>            <a target="_blank" href="http://ah.chinavolunteer.cn"><strong>安徽</strong></a>            <a target="_blank" href="http://ahmas.zhiyuanyun.com">马鞍山市</a>            <a target="_blank" href="http://jx.chinavolunteer.cn"><strong>江西</strong></a>            <a target="_blank" href="http://www.jzzyz.cn">江西吉州</a>            <a target="_blank" href="http://xj.chinavolunteer.cn"><strong>新疆</strong></a>            <a target="_blank" href="http://xz.chinavolunteer.cn"><strong>西藏</strong></a>        </li>        <li>            <a target="_blank" href="http://www.bv2008.cn"><strong>北京</strong></a>            <a target="_blank" href="http://www.xczyz.cn">西城区</a>            <a target="_blank" href="http://chaoyang.zhiyuanyun.com">朝阳区</a>            <a target="_blank" href="http://haidian.zhiyuanyun.com">海淀区</a>            <a target="_blank" href="http://bjmtg.zhiyuanyun.com">门头沟区</a>            <a target="_blank" href="http://fangshan.zhiyuanyun.com">房山区</a>            <a target="_blank" href="http://bjdx.zhiyuanyun.com">大兴区</a>        </li>        <li>            <a target="_blank" href="http://www.zygz.org.cn"><strong>贵州</strong></a>            <a target="_blank" href="http://www.gyzyfw.com">贵阳市</a>            <a target="_blank" href="http://www.zyzy.org.cn">遵义市</a>            <a target="_blank" href="http://www.lpszyz.cn">六盘水市</a>            <a target="_blank" href="http://as.zygz.org.cn">安顺市</a>            <a target="_blank" href="http://bj.zygz.org.cn">毕节市</a>            <a target="_blank" href="http://tr.zygz.org.cn">铜仁市</a>            <a target="_blank" href="http://qdn.zygz.org.cn">黔东南州</a>            <a target="_blank" href="http://qn.zygz.org.cn">黔南州</a>            <a target="_blank" href="http://qxn.zygz.org.cn">黔西南州</a>        </li>        <li>            <a target="_blank" href="http://www.fjvs.org/"><strong>福建</strong></a>            <a target="_blank" href="http://fz.fjvs.org">福州市</a>            <a target="_blank" href="http://xm.fjvs.org">厦门市</a>            <a target="_blank" href="http://zz.fjvs.org">漳州市</a>            <a target="_blank" href="http://qz.fjvs.org">泉州市</a>            <a target="_blank" href="http://sm.fjvs.org">三明市</a>            <a target="_blank" href="http://pt.fjvs.org">莆田市</a>            <a target="_blank" href="http://np.fjvs.org">南平市</a>            <a target="_blank" href="http://ly.fjvs.org">龙岩市</a>            <a target="_blank" href="http://nd.fjvs.org">宁德市</a>        </li>        <li>            <a target="_blank" href="http://sx.zhiyuanyun.com"><strong>陕西</strong></a>            <a target="_blank" href="http://xian.zhiyuanyun.com">西安市</a>            <a target="_blank" href="http://tongchuan.zhiyuanyun.com">铜川市</a>            <a target="_blank" href="http://baoji.zhiyuanyun.com">宝鸡市</a>            <a target="_blank" href="http://xianyang.zhiyuanyun.com">咸阳市</a>            <a target="_blank" href="http://weinan.zhiyuanyun.com">渭南市</a>            <a target="_blank" href="http://yanan.zhiyuanyun.com">延安市</a>            <a target="_blank" href="http://hanzhong.zhiyuanyun.com">汉中市</a>            <a target="_blank" href="http://yulin.zhiyuanyun.com">榆林市</a>            <a target="_blank" href="http://ankang.zhiyuanyun.com">安康市</a>            <a target="_blank" href="http://shangluo.zhiyuanyun.com">商洛市</a>        </li>        <li>            <a target="_blank" href="http://www.hbzyfw.cn/"><strong>河北</strong></a>            <a target="_blank" href="http://sjzzyz.zhiyuanyun.com">石家庄市</a>            <a target="_blank" href="http://hbhd.zhiyuanyun.com">邯郸市</a>            <a target="_blank" href="http://hbts.zhiyuanyun.com">唐山市</a>            <a target="_blank" href="http://xtzyz.zhiyuanyun.com">邢台市</a>        </li>        <li>            <a target="_blank" href="http://ln.chinavolunteer.cn"><strong>辽宁</strong></a>            <a target="_blank" href="http://lnas.zhiyuanyun.com">鞍山市</a>            <a target="_blank" href="http://lnbx.chinavolunteer.cn">本溪市</a>        </li>        <li>            <a target="_blank" href="http://gs.chinavolunteer.cn"><strong>甘肃</strong></a>            <a target="_blank" href="http://lanzhou.zhiyuanyun.com">兰州市</a>            <a target="_blank" href="http://jinchang.zhiyuanyun.com">金昌市</a>        </li>        <li>            <a target="_blank" href="http://sd.chinavolunteer.cn"><strong>山东</strong></a>            <a target="_blank" href="http://sdzb.zhiyuanyun.com">淄博市</a>            <a target="_blank" href="http://sdly.chinavolunteer.cn">临沂市</a>            <a target="_blank" href="http://jnzyz.zhiyuanyun.com">济南市</a>            <a target="_blank" href="http://sdta.zhiyuanyun.com">泰安市</a>            <a target="_blank" href="http://sdlw.zhiyuanyun.com">莱芜市</a>            <a target="_blank" href="http://sddz.zhiyuanyun.com">德州市</a>            <a target="_blank" href="http://sdwh.chinavolunteer.cn">威海市</a>            <a target="_blank" href="http://sdzp.zhiyuanyun.com">邹平县</a>        </li>        <li>            <a target="_blank" href="http://www.zycq.org"><strong>重庆</strong></a>            <a target="_blank" href="http://jiulongpo.zhiyuanyun.com">九龙坡区</a>            <a target="_blank" href="http://dadukou.zycq.org">大渡口区</a>            <a target="_blank" href="http://cqyz.chinavolunteer.cn">渝中区</a>            <a target="_blank" href="http://cqtn.chinavolunteer.cn">潼南区</a>        </li>        <li>            <a target="_blank" href="http://gd.chinavolunteer.cn"><strong>广东</strong></a>            <a target="_blank" href="http://huizhou.zhiyuanyun.com">惠州市</a>            <a target="_blank" href="http://gdjm.zhiyuanyun.com">江门市</a>        </li>        <li>            <a target="_blank" href="http://hn.chinavolunteer.cn"><strong>湖南</strong></a>            <a target="_blank" href="http://hnyy.chinavolunteer.cn">岳阳市</a>            <a target="_blank" href="http://hnwl.zhiyuanyun.com">武陵区</a>        </li>        <li>            <a target="_blank" href="http://gx.chinavolunteer.cn"><strong>广西</strong></a>            <a target="_blank" href="http://nanning.zhiyuanyun.com">南宁市</a>            <a target="_blank" href="http://wuzhou.zhiyuanyun.com">梧州市</a>            <a target="_blank" href="http://liuzhou.zhiyuanyun.com">柳州市</a>            <a target="_blank" href="http://guilin.zhiyuanyun.com">桂林市</a>            <a target="_blank" href="http://gxbh.chinavolunteer.cn">北海市</a>        </li>        <li>            <a target="_blank" href="http://ha.chinavolunteer.cn"><strong>河南</strong></a>            <a target="_blank" href="http://luoyang.zhiyuanyun.com">洛阳市</a>            <a target="_blank" href="http://puyang.zhiyuanyun.com">濮阳市</a>            <a target="_blank" href="http://hnpds.zhiyuanyun.com">平顶山市</a>            <a target="_blank" href="http://hnsq.zhiyuanyun.com">商丘市</a>            <a target="_blank" href="http://hnkf.zhiyuanyun.com">开封市</a>            <a target="_blank" href="http://hnay.chinavolunteer.cn">安阳市</a>            <a target="_blank" href="http://hnxc.chinavolunteer.cn">许昌市</a>        </li>        <li>            <a target="_blank" href="http://sc.chinavolunteer.cn"><strong>四川</strong></a>            <a target="_blank" href="http://scbz.chinavolunteer.cn">巴中市</a>            <a target="_blank" href="http://scgy.chinavolunteer.cn">广元市</a>            <a target="_blank" href="http://cdhtv.zhiyuanyun.com">成都高新区</a>            <a target="_blank" href="http://nanchong.zhiyuanyun.com">南充市</a>            <a target="_blank" href="http://mianyang.zhiyuanyun.com">绵阳市</a>        </li>        <li>            <a target="_blank" href="http://hb.chinavolunteer.cn"><strong>湖北</strong></a>            <a target="_blank" href="http://yichang.zhiyuanyun.com">宜昌市</a>            <a target="_blank" href="http://hbtm.zhiyuanyun.com">天门市</a>            <a target="_blank" href="http://jingmen.zhiyuanyun.com">荆门市</a>            <a target="_blank" href="http://hbxt.zhiyuanyun.com">仙桃市</a>            <a target="_blank" href="http://hbhs.chinavolunteer.cn">武汉洪山</a>        </li>        <li>            <a target="_blank" href="http://zj.chinavolunteer.cn"><strong>浙江</strong></a>            <a target="_blank" href="http://zjbl.zhiyuanyun.com">宁波北仑区</a>            <a target="_blank" href="http://jiaxing.zhiyuanyun.com">嘉兴市</a>            <a target="_blank" href="http://www.zyzj.org">绍兴诸暨市</a>        </li>        <li>            <a target="_blank" href="http://yn.chinavolunteer.cn"><strong>云南</strong></a>            <a target="_blank" href="http://ynkm.chinavolunteer.cn">昆明市</a>            <a target="_blank" href="http://ynws.zhiyuanyun.com">文山州</a>            <a target="_blank" href="http://yndh.zhiyuanyun.com">德宏州</a>        </li>        <li>            <a target="_blank" href="http://nm.chinavolunteer.cn"><strong>内蒙古</strong></a>            <a target="_blank" href="http://ordos.zhiyuanyun.com">鄂尔多斯市</a>            <a target="_blank" href="http://nmgtl.zhiyuanyun.com">通辽市</a>            <a target="_blank" href="http://manzhouli.zhiyuanyun.com">满洲里市</a>        </li>        <li>            <a target="_blank" href="http://bt.zhiyuanyun.com"><strong>兵团</strong></a>            <a target="_blank" href="http://shzzyz.zhiyuanyun.com">八师石河子市</a>            <a target="_blank" href="http://bt13.zhiyuanyun.com">十三师</a>        </li>        <li>            <a target="_blank" href="http://js.chinavolunteer.cn">江苏</a>            <a target="_blank" href="http://tj.chinavolunteer.cn">天津</a>            <a target="_blank" href="http://nx.chinavolunteer.cn">宁夏</a>            <a target="_blank" href="http://qh.chinavolunteer.cn">青海</a>            <a target="_blank" href="http://hl.chinavolunteer.cn">黑龙江</a>        </li>    </ul></div></div></span>
+<span class="l" style="width:550px;">
+<a href="/app/user/login.php" style="color:red">亲，请登录</a>&nbsp;
+<a href="/app/user/register.php">志愿者注册</a>&nbsp;/&nbsp;<a href="/app/user/register.php?type=org">志愿团体注册</a>&nbsp;&nbsp;
+</span>
+<span class="r topmenu_r">
+<div class="topmenu_txt">
+<a href="/app/opp/opp.edit.php">发起项目</a>
+</div>
+<div class="topmenu_txt">
+<a href="/app/user/home.php" class="arrow1">志愿中心</a>
+<div class="topmenu_con">
+<ul>
+<li><a href="/app/opp/opp.my.php">我的项目</a></li>
+<li><a href="/app/user/hour.php">我的时长</a></li>
+<li><a href="/app/org/org.my.php">我的团体</a></li>
+</ul>
+</div>
+</div>
+<div class="topmenu_txt">
+<a href="/app/user/message.php">站内信</a>
+</div>
+<script>
+    $(function(){
+   
+        
+    
+});
+</script> <div class="topmenu_txt">
+<a href="http://www.bv2008.cn/cate/en/">English</a>
+</div>
+</span>
+</div>
+</div>
+<div class="header_logo">
+<div class="wrap clearfix">
+<a href="/" class="l logo"></a>
+<div class="r tsearch clearfix">
+<div class="l" style="width:76px;height:44px;line-height:44px;text-align:center;">
+<div id="tsearch_select">
+<div id="select">志愿团体</div><input id="stype" value="2" type="hidden"> <div id="tsearch_select_div">
+<a href="javascript:void(0);" onclick="$('#tsearch_select>#select').html($(this).html());$('#stype').val(1);chpos(this);">志愿项目</a>
+<a href="javascript:void(0);" onclick="$('#tsearch_select>#select').html($(this).html());$('#stype').val(2);chpos(this);">志愿团体</a>
+<a href="javascript:void(0);" onclick="$('#tsearch_select>#select').html($(this).html());$('#stype').val(3);chpos(this);">新闻文章</a>
+</div>
+</div>
+</div>
+<div class="l">
+&nbsp;&nbsp;&nbsp;<input class="sq" id="sq" value="" type="text">
+</div>
+<div class="l">
+<a href="javascript:void(0);" onclick="top_search();" style="display:block;width:100px;height:44px;"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="nav">
+<div class="wrap">
+<a href="/" style="width:71px;">首页</a><a href="/app/opp/list.php">志愿项目</a><a href="/app/org/list.php" class="sel">志愿团体</a><a href="/app/help/list.php">求助中心</a><a href="http://www.bv2008.cn/cate/bvf_zykx/">志愿快讯</a><a href="http://www.bv2008.cn/cate/bvf_zyrw/">志愿人物</a><a href="http://www.bv2008.cn/cate/bvf_gjhz/">国际合作</a><a href="http://www.bv2008.cn/cate/bvf_yjpx/">研究培训</a><a href="http://www.bv2008.cn/cate/school/">在线课堂</a><a href="http://www.bv2008.cn/cate/bvf_dtjs/">党团建设</a> </div>
+</div>
+<div class="main" id="main_body">
+<div class="wrap opptop clearfix" id="ptit">
+<h1 class="l">
+【16287786】&nbsp;北京大学爱心社 </h1>
+<span class="opp_org_join_status r">&nbsp;&nbsp;</span>
+</div>
+<div class="wrap clearfix m10">
+<div class="conl">
+<div class="clearfix">
+<div class="l desc_img listimg_org">
+</div>
+<div class="l desc_txt">
+<table>
+<tbody><tr><th>区域：</th><td>海淀区</td></tr>
+<tr><th>详细地址：</th><td>北京市海淀区颐和园路5号北京大学燕园</td></tr>
+<tr><th>人员规模：</th><td><span>637</span></td></tr>
+<tr><th>正式成员：</th><td><span>280</span></td></tr>
+<tr><th>加入方式：</th><td>验证信息加入（需审核申请）</td></tr>
+<tr><th>成立日期：</th><td><span>1993-11-23</span></td></tr>
+<tr><th>联络团体：</th><td><a href="/app/org/view.php?id=3471958" target="_blank">北京大学青年志愿者协会</a></td></tr> <tr><th>团体分享到：</th><td><div class="bdsharebuttonbox l bdshare-button-style1-16" data-bd-bind="1521854820460"><a href="#" class="bds_more" data-cmd="more"></a><a title="分享到QQ空间" href="#" class="bds_qzone" data-cmd="qzone"></a><a title="分享到新浪微博" href="#" class="bds_tsina" data-cmd="tsina"></a><a title="分享到腾讯微博" href="#" class="bds_tqq" data-cmd="tqq"></a><a title="分享到人人网" href="#" class="bds_renren" data-cmd="renren"></a><a title="分享到微信" href="#" class="bds_weixin" data-cmd="weixin"></a></div>
+</td></tr>
+</tbody></table>
+</div>
+<div class="con10" style="position:relative;clear:both;">
+<div style="position:absolute;right:0;top:0;">
+<a href="javascript:void(0);" onclick="org_join(16287786,0);" class="but_alert">我要加入</a>
+</div>
+<div class="clearfix tab1">
+<a id="tabs1" href="javascript:void(0);" class="current">团体简介</a>
+<a id="tabs2" href="javascript:void(0);" class="selected_no">发起的项目</a>
+<a id="tabs3" href="javascript:void(0);" class="selected_no">留言咨询</a>
+</div>
+</div>
+<div class="con10" id="con1">
+</div>
+<div class="con10" id="con2" style="display:none;">
+<div id="opps"><table class="table1"><tbody><tr><th>项目名称</th><th width="120">立项日期</th><th width="100">项目状态</th></tr><tr><td><a href="/app/opp/view.php?id=1184906" target="_blank">蒲公英支教活动</a></td><td>2017-11-06</td><td><font color="green">运行中</font></td></tr><tr><td><a href="/app/opp/view.php?id=1174682" target="_blank">北京大学爱心社爱心伞活动</a></td><td>2017-10-31</td><td><font color="blue">自动结项</font></td></tr><tr><td><a href="/app/opp/view.php?id=1165960" target="_blank">迎新服务站</a></td><td>2017-11-13</td><td><font color="green">运行中</font></td></tr><tr><td><a href="/app/opp/view.php?id=1152645" target="_blank">护老部陪伴老人活动</a></td><td>2018-02-27</td><td><font color="green">运行中</font></td></tr><tr><td><a href="/app/opp/view.php?id=1152195" target="_blank">同心支教活动</a></td><td>2017-10-21</td><td><font color="blue">自动结项</font></td></tr><tr><td><a href="/app/opp/view.php?id=1136756" target="_blank">回收旧衣服</a></td><td>2017-11-02</td><td><font color="green">运行中</font></td></tr><tr><td><a href="/app/opp/view.php?id=722645" target="_blank">回收旧衣服</a></td><td>2017-06-14</td><td><font color="blue">自动结项</font></td></tr><tr><td><a href="/app/opp/view.php?id=675876" target="_blank">母亲节活动</a></td><td>2017-04-25</td><td><font color="blue">自动结项</font></td></tr><tr><td><a href="/app/opp/view.php?id=665141" target="_blank">爱心讲座</a></td><td>2017-04-18</td><td><font color="blue">自动结项</font></td></tr><tr><td><a href="/app/opp/view.php?id=660923" target="_blank">北京大学爱心社爱心工地</a></td><td>2017-04-18</td><td><font color="blue">自动结项</font></td></tr><tr><td><a href="/app/opp/view.php?id=658705" target="_blank">录书活动</a></td><td>2017-04-13</td><td><font color="green">运行中</font></td></tr><tr><td><a href="/app/opp/view.php?id=649289" target="_blank">北京大学爱心社助残部教英语活动</a></td><td>2017-04-06</td><td><font color="blue">自动结项</font></td></tr><tr><td><a href="/app/opp/view.php?id=649279" target="_blank">北京大学爱心社助残部温馨家园</a></td><td>2017-04-06</td><td><font color="blue">自动结项</font></td></tr><tr><td><a href="/app/opp/view.php?id=649188" target="_blank">北京大学爱心社爱心伞活动</a></td><td>2017-04-28</td><td><font color="blue">自动结项</font></td></tr><tr><td><a href="/app/opp/view.php?id=640830" target="_blank">北大幼儿园</a></td><td>2017-03-29</td><td><font color="blue">自动结项</font></td></tr><tr><td><a href="/app/opp/view.php?id=636950" target="_blank">蓝天丰苑支教活动</a></td><td>2017-03-28</td><td><font color="blue">自动结项</font></td></tr><tr><td><a href="/app/opp/view.php?id=636573" target="_blank">公益宣传品制作</a></td><td>2017-03-24</td><td><font color="blue">自动结项</font></td></tr><tr><td><a href="/app/opp/view.php?id=636239" target="_blank">成长伙伴</a></td><td>2017-03-24</td><td><font color="blue">自动结项</font></td></tr><tr><td><a href="/app/opp/view.php?id=632412" target="_blank">回收旧衣服</a></td><td>2017-03-22</td><td><font color="blue">自动结项</font></td></tr><tr><td><a href="/app/opp/view.php?id=632409" target="_blank">同心支教活动</a></td><td>2017-03-27</td><td><font color="blue">自动结项</font></td></tr></tbody></table><div class="pagebar"><span class="now_class">1</span><a href="javascript:void(0);" onclick="get_opps(2,16287786,2);">2</a></div><div style="clear:both;height:10px"></div></div>
+</div>
+<div class="con10" id="con3" style="display:none;">
+<div id="comment"><table><tbody><tr><td class="org_desc" width="90" valign="top"><a href="/app/user/view.php?id=33284692" target="_blank"><img src="http://css.zhiyuanyun.com/default/images/noimg_avatar_1.jpg" onerror="this.src='http://css.zhiyuanyun.com/default/images/noimg_avatar_1.jpg';" data-bd-imgshare-binded="1"></a></td><td class="org_desc org_desc2" valign="top"><a href="/app/user/view.php?id=33284692" target="_blank">王康</a>&nbsp;&nbsp;&nbsp;2017-03-20 22:41:17 &nbsp;&nbsp;&nbsp;<a href="javascript:void(0);" onclick="show_reply(149686,33284692);">回复</a><br>请问 平安之家 和 北幼 还没有立项吗？</td></tr></tbody></table><div class="pagebar"><span class="now_class">1</span></div><div style="clear:both;height:10px"></div><div id="creply"><div style="margin:10px"><p class="r_ptitle">在这里畅所欲言吧~~</p><input id="comment_type" value="2" type="hidden"><input id="source_id" value="16287786" type="hidden"><input id="uid_reply" value="0" type="hidden"><input id="parent_id" value="0" type="hidden"><textarea class="txt1" style="width:600px;" id="content"></textarea><br><br><span><a href="javascript:void(0);" onclick="do_reply(this);" class="but1">发布评论</a></span></div></div><div style="clear:both;height:10px"></div></div>
+</div>
+</div>
+</div>
+<div class="conr">
+<div class="tit m10">团体联系人</div>
+<div class="boxcon">
+<table>
+<tbody><tr>
+<td class="org_desc" valign="top">
+<span>王笑予</span><br>
+邮箱：pkuaixin@126.com <div style="margin-top:5px;">
+<a class="but_alert" href="/app/user/message.php?uid_to=16287786" target="_blank">给他发站内信</a>
+<a class="but_alert" href="javascript:void(0);" onclick="show_cpl();">我要投诉</a>
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="tit">团体二维码</div>
+<div class="boxcon" style="text-align:center;">
+<img src="/images/qrcode/org/1628/16287786_7.png" data-bd-imgshare-binded="1">
+<p>APP扫描二维码加入团体</p>
+</div>
+<div class="tit">服务评价</div>
+<div class="boxcon">
+<div style="line-height:180%;margin-top:10px;">
+对项目开展培训的满意度：5.0<br>
+与志愿团体合作的满意度：5.0<br>
+项目执行与计划的符合度：5.0 </div>
+</div>
+<style type="text/css">
+                #allmap {width:250px;height: 240px; overflow:hidden;margin-top:10px;}
+            </style>
+<div class="tit">团体地址</div>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&amp;ak=9f2feaa6d4a8a3eaae63d3b6d212fd13"></script><script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&amp;ak=9f2feaa6d4a8a3eaae63d3b6d212fd13&amp;services=&amp;t=20180323171755"></script><script type="text/javascript">
+	var map = new BMap.Map("allmap");            // 创建Map实例
+	var point = new BMap.Point(116.31837040482,39.997352991013);
+	//map.addControl(new BMap.NavigationControl());  //添加默认缩放平移控件
+	//map.addControl(new BMap.MapTypeControl({mapTypes: [BMAP_NORMAL_MAP,BMAP_HYBRID_MAP]}));     //2D图，卫星图
+	//map.addControl(new BMap.MapTypeControl({anchor: BMAP_ANCHOR_TOP_LEFT}));    //左上角，默认地图控件
+	map.centerAndZoom(point, 15);
+	map.enableScrollWheelZoom();    //启用滚轮放大缩小，默认禁用
+	map.enableContinuousZoom();    //启用地图惯性拖拽，默认禁用
+	var marker = new BMap.Marker(point);  // 创建标注
+	map.addOverlay(marker);              // 将标注添加到地图中
+	var label = new BMap.Label("<div style=\"padding:5px;line-height:180%;\">北京大学爱心社<br>北京市海淀区颐和园路5号北京大学燕园</div>",{offset:new BMap.Size(20,-10)});
+	marker.setLabel(label);</script> <div class="boxcon m10" style="font-size:12px;">
+北京市海淀区颐和园路5号北京大学燕园<br><a class="but_alert" href="javascript:void(0);" onclick="C.alert.opacty({'title':'查看地图','width':'720','height':'460','url':'/app/sys/map.php?x=116.31837040482&amp;y=39.997352991013'});">查看地图</a>&nbsp;&nbsp;
+</div>
+<div class="tit">推荐团体</div>
+<div class="boxcon"><ul>
+</ul></div>
+<div class="tit">推荐项目</div>
+<div class="boxcon"><ul>
+</ul></div>
+</div>
+</div>
+</div>
+<div class="footer clearfix">
+<div class="footlink">
+<a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.bv2008.cn')" href="javascript:void(0);">设为首页</a>
+<a target="_blank" href="/show/272565.html">交换链接</a>
+<a target="_blank" href="/show/272570.html">关于我们</a>
+<a target="_blank" href="/show/272572.html">联系我们</a>
+<a target="_blank" href="/show/264382.html">志愿者保险</a>
+<a target="_blank" href="http://www.bv2008.cn/cate/help/">常见问题</a>
+<a target="_blank" href="mailto:support@bjvolunteer.cn">网友纠错</a>
+</div>
+<div class="wrap m10">
+主办：北京市志愿服务联合会 版权所有 <a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备08012239</a> &nbsp;&nbsp;技术支持：<a href="http://www.zhiyuanyun.com" target="_blank">志愿云</a>&nbsp;<a href="http://www.onexsoft.com" target="_blank">平民软件</a>
+</div>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?b5a4f0ef5aaaf72966174528a19e2e9e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<div id="add_cpl" style="display:none;">
+<input id="cpl_from_type" value="2" type="hidden">
+<input id="cpl_from_id" value="16287786" type="hidden">
+<table class="m10">
+<tbody><tr>
+<td align="right"><span class="fim">*</span>被投诉对象：</td>
+<td><input class="ipt" id="cpl_to_object" value="" placeholder="志愿者姓名/团体名称/项目名称" type="text"><span class="v_result"></span></td>
+</tr>
+<tr>
+<td align="right" valign="top"><span class="fim"></span>投诉内容：</td>
+<td><textarea class="txt1" type="text" id="cpl_to_content" style="width:260px;height:50px;"></textarea><span class="v_result"></span></td>
+</tr>
+<tr>
+<td align="right"><span class="fim">*</span>投诉人姓名：</td>
+<td><input class="ipt" id="cpl_from_name" value="" placeholder="" type="text"><span class="v_result"></span></td>
+</tr>
+<tr>
+<td align="right"><span class="fim">*</span>投诉人证件号码：</td>
+<td><input class="ipt" id="cpl_from_idcard" value="" placeholder="" type="text"><span class="v_result"></span></td>
+</tr>
+<tr>
+<td align="right"><span class="fim">*</span>投诉人联系电话：</td>
+<td><input class="ipt" id="cpl_from_mobile" value="" placeholder="" type="text"><span class="v_result"></span></td>
+</tr>
+<tr>
+<td width="150"></td>
+<td><a href="javascript:void(0);" onclick="add_cpl(this)" class="but1" id="but_add">提交数据</a></td>
+</tr>
+</tbody></table>
+</div>
+
+
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script><div id="bdimgshare_1521854820468" class="sr-bdimgshare sr-bdimgshare-list sr-bdimgshare-16 sr-bdimgshare-black" style="height:36px;line-height:26px;font-size:12px;width:autopx;display:none;" data-bd-bind="1521854820468"><div class="bdimgshare-bg"></div><div class="bdimgshare-content bdsharebuttonbox bdshare-button-style0-16"><label class="bdimgshare-lbl">分享到：</label><a href="#" onclick="return false;" class="bds_qzone" data-cmd="qzone" hidefocus=""></a><a href="#" onclick="return false;" class="bds_tsina" data-cmd="tsina" hidefocus=""></a><a href="#" onclick="return false;" class="bds_tqq" data-cmd="tqq" hidefocus=""></a><a href="#" onclick="return false;" class="bds_renren" data-cmd="renren" hidefocus=""></a><a href="#" onclick="return false;" class="bds_weixin" data-cmd="weixin" hidefocus=""></a><a href="#" onclick="return false;" class="bds_more" data-cmd="more" hidefocus=""></a></div></div><iframe id="bdSharePopup_selectshare1521854820474bg" class="bdselect_share_bg" style="display:none;" frameborder="0"></iframe><div id="bdSharePopup_selectshare1521854820474box" style="display: none;" share-type="selectshare" class="bdselect_share_box" data-bd-bind="1521854820472"><div class="selectshare-mod-triangle"><div class="triangle-border"></div><div class="triangle-inset"></div></div><div class="bdselect_share_head"><span>分享到</span><a href="http://www.baidu.com/s?wd=&amp;tn=SE_hldp08010_vurs2xrp" class="bdselect_share_dialog_search" target="_blank"><i class="bdselect_share_dialog_search_i"></i><span class="bdselect_share_dialog_search_span">百度一下</span></a><a class="bdselect_share_dialog_close"></a></div><div class="bdselect_share_content"><ul class="bdselect_share_list bdshare-button-style1-16"><div class="bdselect_share_partners"><a href="#" class="bds_qzone" data-cmd="qzone"></a><a href="#" class="bds_tsina" data-cmd="tsina"></a><a href="#" class="bds_tqq" data-cmd="tqq"></a><a href="#" class="bds_renren" data-cmd="renren"></a><a href="#" class="bds_weixin" data-cmd="weixin"></a></div><a href="#" class="bds_more" data-cmd="more"></a></ul></div></div></body></html>

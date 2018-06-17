@@ -1,0 +1,131 @@
+# 展示题目：公益大数据的现状与未来
+
+## 文献
+
+* 《社会与公益》2016年7月刊 "WA",IBM 企业社会责任聚焦“公益大数据”：灵析（互联网公益企业）探索，活动“玩转公益数据”WA实战工作坊 
+
+* [中国公益基金会数据骇客马拉松竞赛](http://www.foundationcenter.org.cn/data_hackthrone/index.html)
+
+基于志愿北京-清华本科生-志愿服务数据的挖掘、分析、可视化与建议。
+
+本地 mysql 数据库存储爬虫结果
+
+数据库结构：
+
+(checked)志愿者 一张表
+id, 姓名，注册日期，服务时长
+
+CREATE TABLE IF NOT EXISTS `volunteer`(
+   `volunteer_id` INT UNSIGNED,
+   `name` VARCHAR(40) NOT NULL,   
+   `service_time` INT UNSIGNED NOT NULL,
+   `registration_date` DATE,
+   PRIMARY KEY ( `volunteer_id` )
+)CHARSET=utf8;
+
+(checked)志愿项目，一张表
+id, 名称，立项日期，发起团体 id
+CREATE TABLE IF NOT EXISTS `project`(
+   `project_id` INT UNSIGNED,
+   `name` VARCHAR(40) NOT NULL,
+   `release_time` DATE,
+   `organization_id` INT UNSIGNED NOT NULL,
+   PRIMARY KEY ( `project_id` )
+)CHARSET=utf8;
+
+(checked)志愿者，志愿项目关联表（多对多，不使用外键）
+志愿者 id, 志愿项目 id
+
+使用 volunteer-porject 不符合mysql 表命名规范（no hyphen minus, use underline instead)！
+CREATE TABLE IF NOT EXISTS `volunteer_project`(
+   `vp_id` INT UNSIGNED AUTO_INCREMENT,
+   `project_id` INT UNSIGNED NOT NULL,
+   `volunteer_id` INT UNSIGNED NOT NULL,
+   PRIMARY KEY ( `vp_id` )
+)CHARSET=utf8;
+
+
+志愿团体
+id,成立日期(手动录如数据即可,先添加几个大系的数据）
+CREATE TABLE IF NOT EXISTS `organization`(
+   `organization_id` INT UNSIGNED,
+   `startup_time` DATE,
+   PRIMARY KEY ( `organization_id` )
+)CHARSET=utf8;
+
+志愿者，志愿团体关联表（多对多）
+志愿者 id, 志愿团体 id
+
+
+advanced feature:
+(checked)volunteer gender
+project category
+add service time to volunteer_project
+organization contact person
+organization 联络团体（上级团体）id
+数据统计：
+for a certain organization,
+（1） 统计其“所有项目”参与的志愿者参加项目的数量，做一个条形图，横轴是数量，1,2,3...，纵轴是人数。
+数量 | 人数
+1    | 300
+2    | 79
+3    | 16
+4    | 7
+5    | 2
+（2） 按年度顺序统计每一年（13-17）志愿活动的数量、参与的总人数。
+年份 | 项目数 | 人次
+2013 | 7      | 122 
+2014 | 5      |  42
+2015 | 17     | 184 
+2016 | 6      | 44
+2017 | 11     | 104
+
+疑问： what happens in 2016 year?
+
+（3） 不同院系之间横向的比较
+系别     | 发起项目总数 | 参与总人数 | 女生比例
+电机系   |  48          |   404
+机械系   |  17          |   91
+计算机系 |  19          |   181
+电子系   |  41          |   353
+数学系   |  26          |   207
+建筑     |
+经管     
+水利
+土木
+环境
+人文
+社科
+航院
+自动化
+软件
+法学院
+新闻
+材料
+美院
+物理
+化学
+生物
+工业工程
+热能
+粉刷匠
+书脊支教
+唐仲英
+留学生服务
+校园讲解
+医学院
+绿协
+爱协
+教育扶贫
+手语社
+汽车系
+精仪系
+领航志愿
+工物
+化工
+红会
+乐学
+关爱留守儿童
+
+年度数据呢？
+

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>清北高校志愿数据对比</title>
+<script src="https://cdn.bootcss.com/echarts/4.0.4/echarts.min.js"></script>
+<style>
+th,td { text-align: center;}
+.female_large { background-color: #91c7ae}
+</style>
+</head>
+<body>
+<div id="main" style="width: 600px;height:400px;"></div>
+    <div id="main2" style="width: 1000px;height:400px;"></div>
+<div id="main3" style="width: 811px;height:400px;"></div>
+
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+  // 指定图表的配置项和数据
+    var option = {
+        title: {
+            text: '2012-2017紫荆六个支队参与人次'
+        },
+        tooltip: {
+            trigger: 'axis'
+        },
+        color:['#ffff33','#c23531','#00ff33', '#61a0a8', '#d48265','#ff66cc'],
+        legend: {
+            data:['领航','环境系','工物系','经管学院','爱协','唐仲英'],
+            top: '10%'
+        },
+        grid: {
+            left: '3%',
+            right: '4%',
+            bottom: '3%',
+            containLabel: true
+        },
+        toolbox: {
+            feature: {
+                saveAsImage: {show: true}
+            }
+        },
+        xAxis: {
+            type: 'category',
+            boundaryGap: false,
+            data: ['2012','2013','2014','2015','2016','2017']
+        },
+        yAxis: {
+            name: '人次',
+            type: 'value'
+        },
+        series: [
+            {
+                name:'领航',
+                type:'line',
+                lineStyle:{width:4},
+                data:[162,180,0,63,59,38]
+            },
+            {
+                name:'环境系',
+                type:'line',
+                lineStyle:{width:4},
+                data:[128,227,224,189,213,79]
+            },
+            {
+                name:'工物系',
+                type:'line',
+                lineStyle:{width:4},
+                data:[53,121,76,142,252,110]
+            },
+            {
+                name:'经管学院',
+                type:'line',
+                lineStyle:{width:4},
+                data:[45,82,147,187,81,88]
+            },
+            {
+                name:'爱协',
+                type:'line',
+                lineStyle:{width:4},
+                data:[58,82,104,141,123,50]
+            },
+            {
+                name:'唐仲英',
+                type:'line',
+                lineStyle:{width:4},
+                data:[0,82,66,152,128,166]
+            }
+        ]
+    };
+
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+
+        // 基于准备好的dom，初始化echarts实例
+        var myChart2 = echarts.init(document.getElementById('main2'));
+  // 指定图表的配置项和数据
+        var option2 = {
+            title: {
+                text: '紫荆支队参与人数前6名统计'
+            },
+            toolbox: {
+                feature: {
+                    saveAsImage: {show: true}
+                }
+            },
+            legend: {
+                data:['参与人次','项目数'],
+                left: '60%'
+            },
+            xAxis: {
+                type: 'category',
+                data: [
+                   '清华大学\n学生教育扶贫\n公益协会','清华大学\n义务讲解支队','清华大学\n生物系\n紫荆志愿者支队','清华大学\n机械系\n紫荆志愿者支队','清华大学\n航天航空学院\n紫荆志愿者支队','清华大学\n精仪系\n紫荆志愿者支队']
+            },
+            yAxis: [
+            {
+                type: 'value',
+                name: '人数',
+                axisLabel :{
+                    formatter: '{value}'
+                }
+            },
+            {
+                type: 'value',
+                name: '项目数',
+                axisLabel :{
+                    formatter: '{value}'
+                }
+            }],
+            series: [
+            {
+                name: '参与人次',
+                type: 'bar',
+                data: [1108,806,770,642,635,531],
+                label: {show: true,formatter:'{c}人'},
+                itemStyle: {
+                    color: '#32C5E9'
+               }
+            },
+            {
+                name: '项目数',
+                type: 'bar',
+                yAxisIndex: 1,
+                data: [180,37,114,81,66,46],
+                label: {show: true,formatter:'{c}项'}
+            }            
+            ],
+            color: '#ca8622'
+        };
+
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart2.setOption(option2);
+        var myChart3 = echarts.init(document.getElementById('main3'));
+        var option3 = {
+            title: {
+                text: '清北高校支队女生比例前6名统计',
+                textStyle:{color:'#f00',fontWeight:'bold',fontSize:24}
+            },
+            tooltip : {
+                trigger: 'axis',
+                axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+                    type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+                }
+            },
+            color:["#cc9966","#66cc99"],
+            legend: {
+                data:['女生','男生'],
+                textStyle:{color:'#f00',fontWeight:'bold',fontSize:16},
+                left: '60%'
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            xAxis : [
+                {
+                    type : 'category',
+                    axisLabel:{color:'#f00',fontWeight:'bold',fontSize:16},
+                    data : ['北京大学\n外国语学院\n青年志愿者\n协会','北京大学\n法律援助\n协会','北京大学\n社会学系\n青年志愿者\n协会','清华大学\n社科学院\n紫荆志愿者\n支队','清华大学\n美术学院\n紫荆志愿者\n支队','清华大学\n人文学院\n志愿服务团']
+                }
+            ],
+            yAxis : [
+                {
+                    name : '人数',
+                    type : 'value'
+                }
+            ],
+            toolbox: {
+                feature: {
+                    saveAsImage: {show: true}
+                }
+            },
+            series : [
+                {
+                    name:'女生',
+                    type:'bar',
+                    stack:'student',
+                    data:[58, 96,12,73,197,255]
+                },
+                {
+                    name:'男生',
+                    type:'bar',
+                    stack: 'student',
+                    data:[21,41,5,31,85,109]
+                }
+            ]
+        };
+ myChart3.setOption(option3);
+    </script>
+</body>
+</html>
+
